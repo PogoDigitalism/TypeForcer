@@ -4,8 +4,8 @@ Simple copy-paste decorators to 'force' types for function parameters in Python 
 Comes with `GenericAlias` support! (nested type hints in Iterables such as `list[int]`)
 
 To be added:
-`tuple` support
-`Iterator` support
+- `tuple` support
+- `Iterator` support
 
 Its easy to use:
 ```py
