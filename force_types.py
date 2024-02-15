@@ -25,8 +25,9 @@ def force_types(func: typing.Callable):
                 ]
             ) and hasattr(annotation, "__args__"):
                 raise_exception = False
+
                 if (
-                    isinstance(annotation.__origin__, type(dict))
+                    annotation.__origin__ is dict
                     and len(annotation.__args__) > 1
                 ):
                     if len(
