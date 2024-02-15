@@ -3,6 +3,11 @@ Simple copy-paste decorators to 'force' types for function parameters in Python 
 
 Comes with `GenericAlias` support! (nested type hints in Iterables such as `list[int]`)
 
+To be changed:
+- Move up in typing abstraction layers (checking for types inherited ABCs and not direct type matching)
+  Better support for custom types 
+
+
 To be added:
 - `tuple (Ellipsis)` support
 - `Iterator (no Exhaustion)` support
