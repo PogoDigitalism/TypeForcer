@@ -5,7 +5,7 @@ Comes with `GenericAlias` support! (nested type hints in Iterables such as `list
 
 To be added:
 - `tuple (Ellipsis)` support
-- `Iterator` support
+- `Iterator (no Exhaustion)` support
 
 Its easy to use:
 ```py
